@@ -1,1 +1,1 @@
-# asl-scripts
+scripts fo LiveSplit
