@@ -100,7 +100,7 @@ startup
 		settings.Add("Mushrooms in the Deep", true, "Mushrooms in the Deep", "Story Missions");
 		settings.Add("The Medusa's Call", true, "The Medusa's Call", "Story Missions");
 		settings.Add("Playing the Spoiler", true, "Playing the Spoiler", "Story Missions");
-		settings.Add("Prison Break-in (may not split)", true, "Prison Break-in (may not split)", "Story Missions");
+		settings.Add("Prison Break-in", true, "Prison Break-in", "Story Missions");
 		settings.Add("Island Port Hotel", true, "Island Port Hotel", "Story Missions");
 		settings.Add("Keeping Busy", true, "Keeping Busy", "Story Missions");
 		settings.Add("Meet Citra", true, "Meet Citra", "Story Missions");
@@ -148,7 +148,7 @@ split
 		(current.passedmissions == 5) && (old.passedmissions == 4 ) && (settings["Mushrooms in the Deep"]) ||
 		(current.passedmissions == 6) && (old.passedmissions == 5 ) && (settings["The Medusa's Call"]) || 
 		(current.passedmissions == 7) && (old.passedmissions == 6 ) && (settings["Playing the Spoiler"]) ||
-		(current.passedmissions != 7) && (old.passedmissions == 7 ) && (settings["Prison Break-in (may not split)"]) || 
+		(current.passedmissions != 7) && (old.passedmissions == 7 ) && (settings["Prison Break-in"]) || 
 		(current.passedmissions == 9) && (old.passedmissions == 8 ) && (settings["Island Port Hotel"]) || 
 		(current.passedmissions == 10) && (old.passedmissions == 9 ) && (settings["Keeping Busy"]) ||
 		(current.passedmissions == 11) && (old.passedmissions == 10 ) && (settings["Meet Citra"]) || 
